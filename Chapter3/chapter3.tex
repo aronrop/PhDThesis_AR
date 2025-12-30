@@ -14,7 +14,7 @@
 \section{First section of the third chapter}
 And now I begin my third chapter here \dots
 
-And now to cite some more people~\cite{Rea85,Ancey1996}
+
 
 \subsection{First subsection in the first section}
 \dots and some more 
@@ -176,6 +176,23 @@ pos = h
 	&$\beta$(Mu) & $86.7^\circ$ & $87.7^\circ$ \LL
 }
 
+\subsection{Another table}
+\begin{table}[h]
+	\caption{A table with notes}
+	\label{tbl:notes}
+	\centering
+	\begin{tabular}{ll}
+		\hline
+		Header one                            & Header two \\
+		\hline
+		Entry one\textsuperscript{\emph{a}}   & Entry two  \\
+		Entry three\textsuperscript{\emph{b}} & Entry four \\
+		\hline
+	\end{tabular}
+	
+	\textsuperscript{\emph{a}} Some text;
+	\textsuperscript{\emph{b}} Some more text.
+\end{table}
 
 
 \subsection{lenghty table that cover whole width}
