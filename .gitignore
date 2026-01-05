@@ -20,6 +20,7 @@
 *.nlo
 *.nls
 *.docx
+*.dvi
 
 # Other temp files
 *.swp
