@@ -21,7 +21,7 @@
 *.nls
 *.docx
 *.dvi
-*.pdf
+
 
 # Other temp files
 *.swp
