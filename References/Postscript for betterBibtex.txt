@@ -1,0 +1,12 @@
+if (Translator.BetterTeX) {
+    if (tex.has('journaltitle')) {
+        tex.add({ name: 'journal', value: tex.get('journaltitle') });
+        tex.remove('journaltitle');
+    }
+    // strip biblatex-only emphasis command
+    if (tex.has('title')) {
+        let t = tex.get('title');
+        t = t.replace(/\\mkbibemph/g, '\\emph');
+        tex.add({ name: 'title', value: t });
+    }
+}
