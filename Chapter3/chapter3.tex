@@ -12,203 +12,33 @@
 \fi
 
 
-
-
-
-
-
-
 \section{Chemicals}
-\begin{table}
-\caption{A badly formatted table}
-\centering
-\label{table:bad_table}
-\begin{tabular}{|l|c|c|c|c|}
-\hline 
-& \multicolumn{2}{c}{Species I} & \multicolumn{2}{c|}{Species II} \\ 
-\hline
-Dental measurement  & mean & SD  & mean & SD  \\ \hline 
-\hline
-I1MD & 6.23 & 0.91 & 5.2  & 0.7  \\
-\hline 
-I1LL & 7.48 & 0.56 & 8.7  & 0.71 \\
-\hline 
-I2MD & 3.99 & 0.63 & 4.22 & 0.54 \\
-\hline 
-I2LL & 6.81 & 0.02 & 6.66 & 0.01 \\
-\hline 
-CMD & 13.47 & 0.09 & 10.55 & 0.05 \\
-\hline 
-CBL & 11.88 & 0.05 & 13.11 & 0.04\\ 
-\hline 
-\end{tabular}
-\end{table}
+N-isopropyl acrylamide (NIPAM), N,N-diethylacrylamide (DEA), 2,2\textsuperscript{'}-azobis(2-methylpropionamide) dihydrochloride (initiator VA-044), 2,2\textsuperscript{'}-Azobis(2-methylpropionitrile) (AIBN), \ce{CsTFA},\ce{D2O}, and 1,4- dioxane were purchased from Merck (Darmstadt, Germany).Trans-2-[3-(4-tert-Butylphenyl)-2-methyl-2-propenylidene]malononitrile (DCTB) was obtained from TCI (Tokyo, Japan). Tetrahydrofuran and dimethyl sulfoxide were obtained from VWR International (Leuven, Belgium). 2-(Butylthiocarbonothioylthio)propanoic acid (CTA) 95\% was obtained from ABCR GmbH (Karlsruhe, Germany) and used as received. Water was purified using a Direct-Q water system (Millipore, Molsheim, France).
 
-\begin{table}
-\caption{A nice looking table}
-\centering
-\label{table:nice_table}
-\begin{tabular}{l c c c c}
-\hline 
-\multirow{2}{*}{Dental measurement} & \multicolumn{2}{c}{Species I} & \multicolumn{2}{c}{Species II} \\ 
-\cline{2-5}
-  & mean & SD  & mean & SD  \\ 
-\hline
-I1MD & 6.23 & 0.91 & 5.2  & 0.7  \\
+\section{General Synthetic method for the Preparation of Polymers}
+In a typical experimental procedure, 
 
-I1LL & 7.48 & 0.56 & 8.7  & 0.71 \\
+\section{Instrumentation}
+\subsection{Matrix-Assisted Laser/Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF MS)}
+\nomenclature[z-maldiTof]{MALDI-TOF}{Matrix-Assisted Laser Desorption/Ionization Time-of-Flight}
+Mass spectrometric measurements were carried out using an Autoflex Speed MALDI-TOF mass spectrometer (Bruker Daltonik, Bremen, Germany). Linear mode was applied, where the voltages of ion source 1 and ion source 2 were 19.5 kV and 18.3 kV, respectively. The instrument was equipped with a solid-state laser (355 nm). All mass spectra were externally calibrated with PNIPAM homopolymers. The matrix and ionizing agent were Trans-2-[3-(4-tert-Butylphenyl)-2-methyl-2-propenylidene]malononitrile (DCTB) and \ce{CsTFA}, respectively. Methanol was used a solvent for samples, matrix and cationizing agent. 
 
-I2MD & 3.99 & 0.63 & 4.22 & 0.54 \\
-
-I2LL & 6.81 & 0.02 & 6.66 & 0.01 \\
-
-CMD & 13.47 & 0.09 & 10.55 & 0.05 \\
-
-CBL & 11.88 & 0.05 & 13.11 & 0.04\\ 
-\hline 
-\end{tabular}
-\end{table}
+The final concentrations of the matrix, samples and cationizing agent were 20, 10 and 2.5mg/ml respectively. The matrix, sample and cationizing agent were mixed in a volumetric ratio of 20:4:1 and 0.5µL of the mixture was  deposited onto the MALDI target plate and allowed to air-dry prior to analysis.
 
 
-\begin{table}
-\caption{Even better looking table using booktabs}
-\centering
-\label{table:good_table}
-\begin{tabular}{l c c c c}
-\toprule
-\multirow{2}{*}{Dental measurement} & \multicolumn{2}{c}{Species I} & \multicolumn{2}{c}{Species II} \\ 
-\cmidrule{2-5}
-  & mean & SD  & mean & SD  \\ 
-\midrule
-I1MD & 6.23 & 0.91 & 5.2  & 0.7  \\
+\subsection{Nuclear magnetic Resonance}
+\nomenclature[z-nmr]{NMR}{Nuclear Magnetic Resonance}Proton nuclear magnetic resonance (\ce{^1H}-NMR) spectra were recorded on a Bruker Avance NEO 700 MHz spectrometer equipped with a 5 mm z-gradient CryoProbe TCI. One-dimensional 1H-NMR experiments were conducted at 298 K using a \ang{45} excitation pulse, a relaxation delay of 10s, a spectral width of 13.97ppm, and 32k data points.
 
-I1LL & 7.48 & 0.56 & 8.7  & 0.71 \\
-
-I2MD & 3.99 & 0.63 & 4.22 & 0.54 \\
-
-I2LL & 6.81 & 0.02 & 6.66 & 0.01 \\
-
-CMD & 13.47 & 0.09 & 10.55 & 0.05 \\
-
-CBL & 11.88 & 0.05 & 13.11 & 0.04\\ 
-\bottomrule
-\end{tabular}
-\end{table}
-\subsection{ctable}
-You can use ctable package to create highly customizable tables. Check documentation for further explanation and see table~\ref{nowidth} 
-
-\ctable[
-cap = The Skewing Angles,
-caption = The Skewing Angles ($\beta$) for
-$\fam0 Mu(H)+X_2$ and $\fam0 Mu(H)+HX$~\tmark,
-label = nowidth,
-pos = h
-]{rlcc}{
-	\tnote{for the abstraction reaction,
-		$\fam0 Mu+HX \rightarrow MuH+X$.}
-	\tnote[b]{1 degree${} = \pi/180$ radians.}
-	\tnote[c]{this is a particularly long note, showing that
-		footnotes are set in raggedright mode as we don't like
-		hyphenation in table footnotes.}
-}{ \FL
-	& & $\fam0 H(Mu)+F_2$ & $\fam0 H(Mu)+Cl_2$ \ML
-	&$\beta$(H) & $80.9^\circ$\tmark[b] & $83.2^\circ$ \NN
-	&$\beta$(Mu) & $86.7^\circ$ & $87.7^\circ$ \LL
-}
-
-\subsection{Another table}
-\begin{table}[h]
-	\caption{A table with notes}
-	\label{tbl:notes}
-	\centering
-	\begin{tabular}{ll}
-		\hline
-		Header one                            & Header two \\
-		\hline
-		Entry one\textsuperscript{\emph{a}}   & Entry two  \\
-		Entry three\textsuperscript{\emph{b}} & Entry four \\
-		\hline
-	\end{tabular}
-	
-	\textsuperscript{\emph{a}} Some text;
-	\textsuperscript{\emph{b}} Some more text.
-\end{table}
-
-
-\subsection{lenghty table that cover whole width}
-In case of double column layout, tables which do not fit in single column width should be set to full text width. For this, you need to use \verb+\begin{table*}+ \verb+...+ \verb+\end{table*}+ instead of \verb+\begin{table}+ \verb+...+ \verb+\end{table}+ environment. confirm if footnotes are getting printed and find a fix if not or convert to ctable
-\begin{table}[h]
-		\renewcommand{\thefootnote}{\alph{footnote}}%to force alpahbet tmark
-	\caption{Example of a lengthy table which is set to full textwidth}
-	\label{tab2}
-	\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
-		\toprule%
-		& \multicolumn{3}{@{}c@{}}{Element 1\footnotemark[1]} & \multicolumn{3}{@{}c@{}}{Element 2\footnotemark[2]} \\\cmidrule{2-4}\cmidrule{5-7}%
-		Project & Energy & $\sigma_{calc}$ & $\sigma_{expt}$ & Energy & $\sigma_{calc}$ & $\sigma_{expt}$ \\
-		\midrule
-		Element 3  & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$\\
-		Element 4  & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$\\
-		\bottomrule
-	\end{tabular*}
-	\footnotetext{Note: This is an example of table footnote. This is an example of table footnote this is an example of table footnote this is an example of~table footnote this is an example of table footnote.}
-	\footnotetext[1]{Example for a first table footnote.}
-	\footnotetext[2]{Example for a second table footnote.}
-\end{table}
+Spectral processing and integration were performed using Bruker TopSpin 4.0.9 and Mestrelab MestreNova 14.2 software. For each measurement, 6 mg of the sample was dissolved in 600$\mu$L of deuterated chloroform (\ce{CDCl3}).
+\subsection{UV-visible Spectroscopy}
+\nomenclature[z-Tcp]{\Tcp}{Cloud Point Temparature}
+The cloud point temperature (\Tcp) was measured on JASCO V-750 equipped with a water-cooled Peltier-thermostated six-position autosampler (JASCO PAC-743R) with individual temperature probes. The parameters for the study were set as follows: Optical path length =1.0cm, $\lambda$=500nm, heating/cooling rate of 0.3\degc/min. Measurements were performed using polystyrene cuvettes and a polymer concentration of 10mg/ml. Temperature-dependent transmittance data were collected at approximately 0.2\degc{} interval.
+Nitrogen/dry gas was used during low temperature measurements to prevent extreme condensation around the cuvettes.  
+\subsection{Dynamic Light Scattering}
+\nomenclature[z-dls]{DLS}{Dynamic Light Scattering}
+The cloud point \Tcp{} is equivalent with \HNMR{} is the same as continuously
+\subsection{Size-exclusion Chromatography}
 
 
 
-
-
-
-
-
-
-
-\subsection{sideways table}
-You can use sideways environment to create sideways table to carry more data in a single page. 
-\begin{sidewaystable}
-	\renewcommand{\thefootnote}{\alph{footnote}}%to force alpahbet tmark
-	\caption{Tables which are too long to fit, should be written using the ``sidewaystable'' environment as shown here}\label{tab3}
-	\begin{tabular*}{\textheight}{@{\extracolsep\fill}lcccccc}
-		\toprule%
-		& \multicolumn{3}{@{}c@{}}{Element 1\footnotemark[1]}& \multicolumn{3}{@{}c@{}}{Element\footnotemark[2]} \\\cmidrule{2-4}\cmidrule{5-7}%
-		Projectile & Energy	& $\sigma_{calc}$ & $\sigma_{expt}$ & Energy & $\sigma_{calc}$ & $\sigma_{expt}$ \\
-		\midrule
-		Element 3 & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$ \\
-		Element 4 & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$ \\
-		Element 5 & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$ \\
-		Element 6 & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$ \\
-		\bottomrule
-	\end{tabular*}
-	\footnotetext{Note: This is an example of table footnote this is an example of table footnote this is an example of table footnote this is an example of~table footnote this is an example of table footnote.}
-	\footnotetext[1]{This is an example of table footnote.}
-	\footnotetext[2]{A very important table footnote}
-\end{sidewaystable}
-
-\section{Equations}\label{sec4}
-
-Equations in \LaTeX\ can either be inline or on-a-line by itself (``display equations''). For
-inline equations use the \verb+$...$+ commands. E.g.: The equation
-$H\psi = E \psi$ is written via the command \verb+$H \psi = E \psi$+.
-
-For display equations (with auto generated equation numbers)
-one can use the equation or align environments:
-\begin{equation}
-	\|\tilde{X}(k)\|^2 \leq\frac{\sum\limits_{i=1}^{p}\left\|\tilde{Y}_i(k)\right\|^2+\sum\limits_{j=1}^{q}\left\|\tilde{Z}_j(k)\right\|^2 }{p+q}.\label{eq1}
-\end{equation}
-where,
-\begin{align}
-	D_\mu &=  \partial_\mu - ig \frac{\lambda^a}{2} A^a_\mu \nonumber \\
-	F^a_{\mu\nu} &= \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + g f^{abc} A^b_\mu A^a_\nu \label{eq2}
-\end{align}
-Notice the use of \verb+\nonumber+ in the align environment at the end
-of each line, except the last, so as not to produce equation numbers on
-lines where no equation numbers are required. The \verb+\label{}+ command
-should only be used at the last line of an align environment where
-\verb+\nonumber+ is not used.
-\begin{equation}
-	Y_\infty = \left( \frac{m}{\textrm{GeV}} \right)^{-3}
-	\left[ 1 + \frac{3 \ln(m/\textrm{GeV})}{15}
-	+ \frac{\ln(c_2/5)}{15} \right]
-\end{equation}
 
